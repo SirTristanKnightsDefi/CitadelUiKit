@@ -34,7 +34,7 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png;
+    banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
   } else {
     banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
   }
@@ -49,7 +49,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="Pup Protector">
+        <StyledLink as="a" href={href} aria-label="Citadel">
           <img
             src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
             alt="Citadel Logo"
@@ -62,15 +62,15 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="Citadel Protector">
+        <StyledLink to={href} aria-label="Citadel">
           <img
             src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
-            alt="PUCitadelP Logo"
+            alt="Citadel Logo"
             className="mobile-icon"
           />
           <img
             src={banner}
-            alt="Citadel Protector Logo"
+            alt="Citadel Logo"
             className="desktop-icon"
           />
         </StyledLink>
