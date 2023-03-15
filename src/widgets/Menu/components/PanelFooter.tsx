@@ -79,7 +79,7 @@ const PanelFooter: React.FC<Props> = ({
         {cakePriceUsd ? (
           <PriceLink href="https://thecitadeltoken.com/" target="_blank">
             <img
-              src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
+              src="https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png"
               alt="Citadel Logo"
               style={{
                 width: "24px",
@@ -92,7 +92,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24}>
           <img
-              src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
+              src="https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png"
               alt="Citadel Logo"
               style={{
                 width: "24px",

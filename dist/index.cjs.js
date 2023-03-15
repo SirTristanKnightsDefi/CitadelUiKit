@@ -2442,17 +2442,17 @@ var Logo = function (_a) {
     var isPushed = _a.isPushed, togglePush = _a.togglePush, isDark = _a.isDark, href = _a.href, banner = _a.banner;
     var isAbsoluteUrl = href.startsWith("http");
     if (isDark) {
-        banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
+        banner = 'https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png';
     }
     else {
-        banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
+        banner = 'https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png';
     }
     return (React__default['default'].createElement(Flex, null,
         React__default['default'].createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React__default['default'].createElement(Icon$m, { width: "24px", color: "textSubtle" })) : (React__default['default'].createElement(Icon$n, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React__default['default'].createElement(StyledLink, { as: "a", href: href, "aria-label": "Citadel" },
-            React__default['default'].createElement("img", { src: "https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "Citadel Logo", className: "desktop-icon" }))) : (React__default['default'].createElement(StyledLink, { to: href, "aria-label": "Citadel" },
-            React__default['default'].createElement("img", { src: "https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", className: "mobile-icon" }),
+            React__default['default'].createElement("img", { src: "https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", className: "mobile-icon" }),
             React__default['default'].createElement("img", { src: banner, alt: "Citadel Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$c;
@@ -2737,12 +2737,12 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container, null,
         React__default['default'].createElement(SocialEntry, null, cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://thecitadeltoken.com/", target: "_blank" },
-            React__default['default'].createElement("img", { src: "https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", style: {
+            React__default['default'].createElement("img", { src: "https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } }),
             React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(4)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 },
-            React__default['default'].createElement("img", { src: "https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", style: {
+            React__default['default'].createElement("img", { src: "https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png", alt: "Citadel Logo", style: {
                     width: "24px",
                     marginRight: "8px",
                 } })))),

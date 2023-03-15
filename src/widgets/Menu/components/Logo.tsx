@@ -34,9 +34,9 @@ const StyledLink = styled(Link)`
 const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) => {
   const isAbsoluteUrl = href.startsWith("http");
   if(isDark){
-    banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
+    banner = 'https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png';
   } else {
-    banner = 'https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png';
+    banner = 'https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png';
   }
 
   return (
@@ -51,7 +51,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Citadel">
           <img
-            src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
+            src="https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png"
             alt="Citadel Logo"
             className="mobile-icon"
           />
@@ -64,7 +64,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href, banner }) =
       ) : (
         <StyledLink to={href} aria-label="Citadel">
           <img
-            src="https://ctv2.t10cryptoagency.com/wp-content/uploads/2023/03/Logo.png"
+            src="https://thecitadeltoken.io/wp-content/uploads/2023/03/Logo.png"
             alt="Citadel Logo"
             className="mobile-icon"
           />
